@@ -10,6 +10,7 @@ This repository contains a Python library for photo manipulation tasks. It provi
 - [Functions](#functions)
 - [Tests](#tests)
 - [Alternate implementation](#Alternate-implementation)
+  
 ## Introduction
 
 The Photo Manipulator library offers a set of functions for performing various photo manipulation tasks. These tasks include histogram equalization, image compression, colourization, image comparison, brightness adjustment, contrast adjustment, blurring, edge detection, rotation, cropping, resizing, image segmentation, image drawing, image blending, image sharpening, grayscale conversion, and applying a vignette effect.
@@ -31,12 +32,12 @@ The library is implemented using the following main files:
 The repository is structured as follows:
 
 photo-manipulator/
--├── png.py
--├── image.py
--├── transform.py
--├── execute.py
--├── tests.py
--└── imagealt.py
+- (├── png.py)
+- (├── image.py)
+- (├── transform.py)
+- (├── execute.py)
+- (├── tests.py)
+- (└── imagealt.py)
 
 
 ## Execution
