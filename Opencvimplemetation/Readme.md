@@ -1,18 +1,16 @@
-# Image Processing Toolbox
+# Photo Manipulator Toolbox using OpenCV
 
-The Image Processing Toolbox is a Python library that provides a collection of image processing functions and tools. It aims to simplify the process of manipulating images by offering a range of ready-to-use functions that can be easily integrated into your projects. Whether you're an image processing enthusiast, a computer vision researcher, or a developer working on computer graphics applications, this toolbox can be a valuable asset in your toolkit.
+The Photo Manipulator Toolbox is a Python library that provides a collection of image-processing functions and tools using the OpenCV library. It aims to simplify manipulating images by offering a range of ready-to-use functions that can be easily integrated into your projects.
 
 ## Features
 
-**Comprehensive Image Processing Functions:** The toolbox offers a wide range of image processing functions, including contrast adjustment, blurring, edge detection, image blending, color manipulation, image compression, resizing, rotation, and more. These functions are implemented using popular libraries such as OpenCV and NumPy to ensure efficiency and accuracy.
+**Comprehensive Image Processing Functions:** The toolbox offers various image processing functions, including contrast adjustment, blurring, edge detection, image blending, colour manipulation, image compression, resizing, rotation, and more. These functions are implemented using popular libraries such as OpenCV and NumPy to ensure efficiency and accuracy.
 
-**User-Friendly Interface:** The toolbox provides a user-friendly interface for executing image processing functions. It includes an `execute_image_function` function that allows you to easily apply any desired function to an input image. The function prompts you to provide values for the function's parameters and automatically handles the loading and saving of images.
+**User-Friendly Interface:** The toolbox provides a user-friendly interface for executing image processing functions. It includes an `execute_image_function` function that easily applies any desired function to an input image. The function prompts you to provide values for the function's parameters and automatically handles the loading and saving of images.
 
-**Flexible Parameter Handling:** The toolbox leverages Python's `inspect` module to dynamically retrieve the parameter information of each image processing function. This enables a seamless interaction with the functions, allowing you to provide input values for various parameter types, including numerical arrays, lists, tuples, and more.
+**Flexible Parameter Handling:** The toolbox leverages Python's `inspect` module to retrieve the parameter information of each image processing function dynamically. This enables seamless interaction with the functions, allowing you to provide input values for various parameter types, including numerical arrays, lists, tuples, and more.
 
-**Image Processing Class:** The toolbox includes an `ImageProcessor` class that simplifies the loading and saving of images. It provides convenient methods for loading an image from a file, saving an image to a specific location, and handling the conversion and scaling of image data.
-
-**Documentation and Examples:** The toolbox comes with comprehensive documentation that explains the usage and parameters of each image processing function. It provides clear examples and illustrations to help you understand the concepts and apply the functions effectively.
+**Image Processing Class:** The toolbox includes an `ImageProcessor` class that simplifies the loading and saving of images. It provides convenient methods for loading an image from a file, saving it to a specific location, and handling the conversion and scaling of image data.
 
 ## Installation
 
@@ -33,7 +31,7 @@ To execute the Image Processing Toolbox and apply image processing functions, yo
 
 ## Available Image Manipulating Functions
 
-The Image Processing Toolbox provides the following image manipulating functions:
+The Image Processing Toolbox provides the following image-manipulating functions:
 
 - `adjust_contrast`: Adjusts the contrast of an image.
 - `apply_gaussian_blur`: Applies Gaussian blur to an image.
@@ -44,17 +42,17 @@ The Image Processing Toolbox provides the following image manipulating functions
 - `brighten`: Brightens an image by a specified factor.
 - `calculate_ssim`: Calculates the structural similarity index (SSIM) between two images.
 - `cluster_pixels`: Segments an image by clustering its pixels.
-- `color_dodge`: Blends two images using the color dodge blending mode.
-- `colorize`: Colorizes a grayscale image using a specified color palette.
+- `color_dodge`: Blends two images using the colour dodge blending mode.
+- `colorize`: Colorizes a grayscale image using a specified colour palette.
 - `compress_image`: Compresses an image using a specified compression factor.
 - `convert_to_grayscale`: Converts an image to grayscale.
 - `crop`: Crops an image to a specified region of interest.
 - `edge_detection_x`: Detects edges in an image using the Sobel operator along the x-axis.
 - `edge_detection_y`: Detects edges in an image using the Sobel operator along the y-axis.
-- `image_blending`: Blends two images together using a specified alpha value.
+- `image_blending`: Blend two images using a specified alpha value.
 - `image_comparison`: Compares two images based on mean squared error (MSE) and structural similarity index (SSIM).
 - `image_compression`: Compresses and decompresses an image using JPEG encoding.
-- `image_drawing`: Draws lines on an image with specified coordinates, color, thickness, and blending alpha.
+- `image_drawing`: Draws lines on an image with specified coordinates, colour, thickness, and blending alpha.
 - `image_segmentation`: Segments an image by clustering its pixels.
 - `image_sharpening`: Sharpens an image by applying a Gaussian blur and blending with the original image.
 - `img_as_ubyte`: Converts an image to 8-bit unsigned integer format.
@@ -64,4 +62,4 @@ The Image Processing Toolbox provides the following image manipulating functions
 - `resize2`: Resizes an image to a specified width and height using interpolation.
 - `rotate`: Rotates an image by a specified angle
 
-For more detailed information about each function, including the parameters and usage examples, please refer to the documentation or docstrings provided in the code.
+For more detailed information about each function, including the parameters and usage examples, please look at the documentation or docstrings provided in the code in the files `cv2image.py`, `cv2transform.py` and `cv2execute.py`.
