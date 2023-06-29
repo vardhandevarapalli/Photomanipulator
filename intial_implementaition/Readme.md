@@ -31,12 +31,12 @@ The library is implemented using the following main files:
 The repository is structured as follows:
 
 photo-manipulator/
-├── png.py
-├── image.py
-├── transform.py
-├── execute.py
-├── tests.py
-└── imagealt.py
+-├── png.py
+-├── image.py
+-├── transform.py
+-├── execute.py
+-├── tests.py
+-└── imagealt.py
 
 
 ## Execution
