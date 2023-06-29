@@ -12,14 +12,6 @@ The Photo Manipulator Toolbox is a Python library that provides a collection of 
 
 **Image Processing Class:** The toolbox includes an `ImageProcessor` class that simplifies the loading and saving of images. It provides convenient methods for loading an image from a file, saving it to a specific location, and handling the conversion and scaling of image data.
 
-## Installation
-
-To use the Image Processing Toolbox, follow these steps:
-
-1. Clone the repository or download the source code.
-2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Import the toolbox modules into your Python project.
-
 ## Execution
 
 To execute the Image Processing Toolbox and apply image processing functions, you can use the `cv2execute.py` file. This file provides an interface for selecting and executing the desired image processing function. Here's how to use it:
@@ -62,4 +54,4 @@ The Image Processing Toolbox provides the following image-manipulating functions
 - `resize2`: Resizes an image to a specified width and height using interpolation.
 - `rotate`: Rotates an image by a specified angle
 
-For more detailed information about each function, including the parameters and usage examples, please look at the documentation or docstrings provided in the code in the files `cv2image.py`, `cv2transform.py` and `cv2execute.py`.
+For more detailed information about each function, including the parameters and usage examples, please look at the code in the files `cv2image.py`, `cv2transform.py` and `cv2execute.py`.
