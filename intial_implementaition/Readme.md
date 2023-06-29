@@ -9,7 +9,7 @@ This repository contains a Python library for photo manipulation tasks. It provi
 - [Execution](#execution)
 - [Functions](#functions)
 - [Tests](#tests)
-
+- [Alternate implementation](#Alternate-implementation)
 ## Introduction
 
 The Photo Manipulator library offers a set of functions for performing various photo manipulation tasks. These tasks include histogram equalization, image compression, colourization, image comparison, brightness adjustment, contrast adjustment, blurring, edge detection, rotation, cropping, resizing, image segmentation, image drawing, image blending, image sharpening, grayscale conversion, and applying a vignette effect.
@@ -35,7 +35,9 @@ photo-manipulator/
 ├── image.py
 ├── transform.py
 ├── execute.py
-└── tests.py
+├── tests.py
+└── imagealt.py
+
 
 ## Execution
 
@@ -69,7 +71,7 @@ The Photo Manipulator library provides the following functions in the `transform
 - `edge_detection2`: Performs edge detection on an image using the Sobel operator.
 - `image_segmentation`: Segments an image into a specified number of regions.
 - `image_drawing`: Draws shapes or lines on an image.
-- `image_blending`: Using a specified alpha value, blend two images together.
+- `image_blending`: Blend two images using a specified alpha value.
 - `image_sharpening`: Sharpens an image using a specified alpha value.
 - `convert_to_grayscale`: Converts an image to grayscale.
 - `apply_vignette_effect`: Applies a vignette effect to an image.
@@ -79,6 +81,9 @@ Please look at the source code and function docstrings for more details on the u
 ## Tests
 
 The `tests.py` file contains test cases for all the functions in the `transform` module. These tests ensure the correct behaviour and accuracy of the photo manipulation functions. To run the tests, execute the following command: ```python tests.py```
+
+## Alternate implementation
+An alternate implementation of the Image class is available in the `imagealt.py` module. This implementation eliminates the usage of `png.py` and instead uses the `PIL (Python Imaging Library)` module for reading and writing PNG images. The Image class in `imagealt.py` mimics the functionality of the original Image class, providing similar features for image manipulation.
 
 
 
